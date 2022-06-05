@@ -1,0 +1,89 @@
+{% extends "blog/base.html" %}
+{% load crispy_forms_tags %}
+{% block content %}
+    <p>Paste excel data here:</p>
+<div class="form-outline">
+  <textarea class="form-control" id="textAreaExample2" rows="8" name="excel_data" id="excel_data"></textarea>
+
+</div>
+<br>
+  <input type="button" onclick="generateTable()" value="Genereate Table">
+  <br><br>
+      <p>Table data will appear below</p>
+  <hr>
+    <script>
+    function generateTable() {
+
+    if($('textarea[name=excel_data]').val() != ''){
+        var data = $('textarea[name=excel_data]').val();
+        console.log(data);
+        var rows = data.split("\n");
+        console.log(rows)
+        var header = rows[0].split("\t")
+        console.log(header)
+
+        var table = $('<table class="table table-dark" />');
+        $('table').attr('id','json-table');
+
+        table_value_list=[]
+
+        for(var y in rows) {
+
+            var cells = rows[y].split("\t");
+            var row = $('<tr />');
+            table_data={}
+            table_data.title = cells[0]
+            table_data.content = cells[1]
+            console.log(table_data)
+            var i = 0
+            for(var x in cells) {
+                console.log(cells)
+                if(y == 0){
+                row.append('<th>'+cells[x]+'</th>');
+                }
+                else{
+                row.append('<td>'+cells[x]+'</td>');
+                }}
+            table_value_list.push(table_data)
+        table.append(row);
+            }
+        console.log(table_value_list)
+
+        // Insert into DOM
+        $('#excel_table').html(table);
+        }
+    }
+
+
+    function table_post(){
+        console.log(table_value_list);
+
+        $.ajax({
+            method:"POST",
+
+            url:'{% url 'post-table' %}',
+
+            data:{
+            post_list:JSON.stringify(table_value_list)
+            },
+            datatype:'json',
+
+            success: function() { alert('Data Successfully Submitted');
+            },
+        });
+
+
+        }
+
+
+</script>
+    <form id="bulk-post-form">
+  <div id="excel_table">
+
+  </div>
+    <div class ="form-group">
+         <input type="button" onclick="table_post()" value="Bulk Post">
+     </div>
+    </form>
+
+{% endblock %}

@@ -1,0 +1,124 @@
+{% extends "blog/base.html" %}
+{% block content %}
+
+    {% for post in tweets %}
+<style>
+.btn {
+  border: none;
+  background-color: inherit;
+  padding: 14px 28px;
+  font-size: 16px;
+  cursor: pointer;
+  display: inline-block;
+}
+
+/* On mouse-over */
+.btn:hover {background: #eee;}
+
+.info {color: dodgerblue;}
+
+</style>
+    <article class="media content-section">
+        <img class="rounded-circle article-img"  src="{{ post.author.profile.image.url }}" />
+        <div class="media-body" >
+            <div class="article-metadata">
+
+                    <a class="mr-2" href="#">{{ post.author }}</a>
+                    <small class="text-muted">{{ post.date_posted|date:"F d, Y"}}</small>
+
+            </div>
+            <h2><a class="article-title" >{{ post.title }}</a></h2>
+
+            <audio id="voice" src="{{ post.audio_file.url }}" controls  autoplay muted> </audio>
+            <br>
+            <button class="btn info" onclick="pitch_5()">Pitch 5</button>
+            <button class="btn info" onclick="pitch_4()">Pitch 4</button>
+            <button class="btn info" onclick="pitch_3()">Pitch 3</button>
+            <button class="btn info" onclick="pitch_2()">Pitch 2</button>
+            <button class="btn info" onclick="pitch_1()">Pitch 1</button>
+            <br>
+
+
+            <div class="content-section" >
+
+                <h4>Comments</h4>
+            {% for comment in comments %}
+
+<!--                Checking whether the comment is realted to the tweet or not-->
+
+
+                {% if comment.tweet.id == post.id %}
+            <article class="media content-section" >
+                <div class="media-body" >
+                <div class="article-metadata">
+
+                    <a class="mr-2" >{{ comment.c_author }}</a>
+                    <small class="text-muted">{{ comment.c_date_posted|date:"F d, Y"}}</small>
+                </div>
+                    <audio src="{{ comment.c_audio_file.url }}" controls  autoplay muted> </audio>
+
+                </div>
+            </article>
+                {% endif %}
+                {% endfor %}
+                </div>
+
+                    <br><br>
+
+<!--            Show the comment section if the user is logged in-->
+
+            {% if user.is_authenticated %}
+
+            <div class="content-section">
+            <form method="POST" enctype="multipart/form-data" action="{% url 'post-comment' %}">
+                {% csrf_token %}
+                <fieldset class="form-group">
+                    <legend class="border-bottom mb-4">Comment here</legend>
+                    <input type="file" name="c_audio_file">
+                    <input type="text" name="tweet" value="{{ post.id }}" hidden>
+
+                </fieldset>
+                <div class ="form-group">
+                    <button class="btn btn-outline-info" type="submit">Comment</button>
+
+                </div>
+            </form>
+
+        </div>
+
+            {% endif %}
+        </div>
+
+
+
+    </article>
+<br><br>
+<script>
+
+    function pitch_5(){
+    var voice=document.getElementById('voice');
+    voice.style.pitch = 'x-high';
+    }
+    function pitch_4(){
+    var voice=document.getElementById('voice');
+        voice.style.pitch = 'high';
+    }
+        function pitch_3(){
+        var voice=document.getElementById('voice');
+        voice.style.pitch = 'normal';
+    }
+        function pitch_2(){
+        var voice=document.getElementById('voice');
+        voice.style.pitch = 'low';
+    }
+        function pitch_1(){
+        var voice=document.getElementById('voice');
+        voice.style.pitch = 'x-low';
+    }
+
+</script>
+
+    {% endfor %}
+{% endblock content %}
+
+
