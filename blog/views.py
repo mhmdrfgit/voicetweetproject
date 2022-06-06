@@ -63,6 +63,7 @@ def create_comment(request):
     return render(request, 'blog/home.html',context)
 
 
+
 class TweetCreateView(LoginRequiredMixin,
                       CreateView):  # LoginRequiredMixin- instead of login_required decorator in functional view
     model = Tweet

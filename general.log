@@ -1569,3 +1569,737 @@ Not Found: /favicon.ico
 Not Found: /favicon.ico
 Not Found: /favicon.ico
 Not Found: /favicon.ico
+D:\Raihana\Voicetweet\Raihana_blog\blog\views.py changed, reloading.
+Watching for file changes with StatReloader
+D:\Raihana\Voicetweet\Raihana_blog\django_project\settings.py changed, reloading.
+Watching for file changes with StatReloader
+Not Found: /logout/asset/btn_google_signin_dark_focus_web.png
+Not Found: /logout/asset/btn_google_signin_dark_focus_web.png
+Not Found: /logout/asset/btn_google_signin_dark_focus_web.png
+Not Found: /logout/asset/btn_google_signin_dark_focus_web.png
+Not Found: /logout/asset/btn_google_signin_dark_focus_web.png
+Not Found: /asset/btn_google_signin_dark_focus_web.png
+Not Found: /asset/btn_google_signin_dark_focus_web.png
+Not Found: /asset/btn_google_signin_dark_focus_web.png
+Not Found: /asset/btn_google_signin_dark_focus_web.png
+Not Found: /asset/btn_google_signin_dark_focus_web.png
+Not Found: /asset/btn_google_signin_dark_focus_web.png
+Not Found: /asset/btn_google_signin_dark_focus_web.png
+D:\Raihana\Voicetweet\Raihana_blog\django_project\settings.py changed, reloading.
+Watching for file changes with StatReloader
+D:\Raihana\Voicetweet\Raihana_blog\django_project\settings.py changed, reloading.
+Watching for file changes with StatReloader
+D:\Raihana\Voicetweet\Raihana_blog\django_project\settings.py changed, reloading.
+Watching for file changes with StatReloader
+D:\Raihana\Voicetweet\Raihana_blog\django_project\settings.py changed, reloading.
+Watching for file changes with StatReloader
+D:\Raihana\Voicetweet\Raihana_blog\django_project\settings.py changed, reloading.
+Watching for file changes with StatReloader
+D:\Raihana\Voicetweet\Raihana_blog\django_project\urls.py changed, reloading.
+Watching for file changes with StatReloader
+Not Found: /asset/btn_google_signin_dark_focus_web.png
+Not Found: /account/login
+Not Found: /asset/btn_google_signin_dark_focus_web.png
+Not Found: /asset/btn_google_signin_dark_focus_web.png
+Internal Server Error: /accounts/google/login/
+Traceback (most recent call last):
+  File "D:\Raihana\DjangoCRUD\DjangoCRUD\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "D:\Raihana\DjangoCRUD\DjangoCRUD\venv\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\Raihana\DjangoCRUD\DjangoCRUD\venv\lib\site-packages\allauth\socialaccount\providers\oauth2\views.py", line 80, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "D:\Raihana\DjangoCRUD\DjangoCRUD\venv\lib\site-packages\allauth\socialaccount\providers\base\mixins.py", line 18, in dispatch
+    return self.login(request, *args, **kwargs)
+  File "D:\Raihana\DjangoCRUD\DjangoCRUD\venv\lib\site-packages\allauth\socialaccount\providers\oauth2\views.py", line 108, in login
+    app = provider.get_app(self.request)
+  File "D:\Raihana\DjangoCRUD\DjangoCRUD\venv\lib\site-packages\allauth\socialaccount\providers\base\provider.py", line 30, in get_app
+    return adapter.get_app(request, self.id)
+  File "D:\Raihana\DjangoCRUD\DjangoCRUD\venv\lib\site-packages\allauth\socialaccount\adapter.py", line 204, in get_app
+    app = SocialApp.objects.get_current(provider, request)
+  File "D:\Raihana\DjangoCRUD\DjangoCRUD\venv\lib\site-packages\allauth\socialaccount\models.py", line 31, in get_current
+    app = self.get(sites__id=site.id, provider=provider)
+  File "D:\Raihana\DjangoCRUD\DjangoCRUD\venv\lib\site-packages\django\db\models\manager.py", line 85, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "D:\Raihana\DjangoCRUD\DjangoCRUD\venv\lib\site-packages\django\db\models\query.py", line 496, in get
+    raise self.model.DoesNotExist(
+allauth.socialaccount.models.SocialApp.DoesNotExist: SocialApp matching query does not exist.
+Internal Server Error: /accounts/google/login/
+Traceback (most recent call last):
+  File "D:\Raihana\DjangoCRUD\DjangoCRUD\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "D:\Raihana\DjangoCRUD\DjangoCRUD\venv\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\Raihana\DjangoCRUD\DjangoCRUD\venv\lib\site-packages\allauth\socialaccount\providers\oauth2\views.py", line 80, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "D:\Raihana\DjangoCRUD\DjangoCRUD\venv\lib\site-packages\allauth\socialaccount\providers\base\mixins.py", line 18, in dispatch
+    return self.login(request, *args, **kwargs)
+  File "D:\Raihana\DjangoCRUD\DjangoCRUD\venv\lib\site-packages\allauth\socialaccount\providers\oauth2\views.py", line 108, in login
+    app = provider.get_app(self.request)
+  File "D:\Raihana\DjangoCRUD\DjangoCRUD\venv\lib\site-packages\allauth\socialaccount\providers\base\provider.py", line 30, in get_app
+    return adapter.get_app(request, self.id)
+  File "D:\Raihana\DjangoCRUD\DjangoCRUD\venv\lib\site-packages\allauth\socialaccount\adapter.py", line 204, in get_app
+    app = SocialApp.objects.get_current(provider, request)
+  File "D:\Raihana\DjangoCRUD\DjangoCRUD\venv\lib\site-packages\allauth\socialaccount\models.py", line 31, in get_current
+    app = self.get(sites__id=site.id, provider=provider)
+  File "D:\Raihana\DjangoCRUD\DjangoCRUD\venv\lib\site-packages\django\db\models\manager.py", line 85, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "D:\Raihana\DjangoCRUD\DjangoCRUD\venv\lib\site-packages\django\db\models\query.py", line 496, in get
+    raise self.model.DoesNotExist(
+allauth.socialaccount.models.SocialApp.DoesNotExist: SocialApp matching query does not exist.
+D:\Raihana\Voicetweet\Raihana_blog\django_project\urls.py changed, reloading.
+Watching for file changes with StatReloader
+D:\Raihana\Voicetweet\Raihana_blog\django_project\urls.py changed, reloading.
+Watching for file changes with StatReloader
+D:\Raihana\Voicetweet\Raihana_blog\django_project\settings.py changed, reloading.
+Watching for file changes with StatReloader
+Internal Server Error: /accounts/google/login/
+Traceback (most recent call last):
+  File "D:\Raihana\DjangoCRUD\DjangoCRUD\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "D:\Raihana\DjangoCRUD\DjangoCRUD\venv\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\Raihana\DjangoCRUD\DjangoCRUD\venv\lib\site-packages\allauth\socialaccount\providers\oauth2\views.py", line 80, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "D:\Raihana\DjangoCRUD\DjangoCRUD\venv\lib\site-packages\allauth\socialaccount\providers\base\mixins.py", line 18, in dispatch
+    return self.login(request, *args, **kwargs)
+  File "D:\Raihana\DjangoCRUD\DjangoCRUD\venv\lib\site-packages\allauth\socialaccount\providers\oauth2\views.py", line 108, in login
+    app = provider.get_app(self.request)
+  File "D:\Raihana\DjangoCRUD\DjangoCRUD\venv\lib\site-packages\allauth\socialaccount\providers\base\provider.py", line 30, in get_app
+    return adapter.get_app(request, self.id)
+  File "D:\Raihana\DjangoCRUD\DjangoCRUD\venv\lib\site-packages\allauth\socialaccount\adapter.py", line 204, in get_app
+    app = SocialApp.objects.get_current(provider, request)
+  File "D:\Raihana\DjangoCRUD\DjangoCRUD\venv\lib\site-packages\allauth\socialaccount\models.py", line 31, in get_current
+    app = self.get(sites__id=site.id, provider=provider)
+  File "D:\Raihana\DjangoCRUD\DjangoCRUD\venv\lib\site-packages\django\db\models\manager.py", line 85, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "D:\Raihana\DjangoCRUD\DjangoCRUD\venv\lib\site-packages\django\db\models\query.py", line 496, in get
+    raise self.model.DoesNotExist(
+allauth.socialaccount.models.SocialApp.DoesNotExist: SocialApp matching query does not exist.
+Internal Server Error: /admin/logout/
+Traceback (most recent call last):
+  File "D:\Raihana\DjangoCRUD\DjangoCRUD\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "D:\Raihana\DjangoCRUD\DjangoCRUD\venv\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\Raihana\DjangoCRUD\DjangoCRUD\venv\lib\site-packages\django\contrib\admin\sites.py", line 261, in wrapper
+    return self.admin_view(view, cacheable)(*args, **kwargs)
+  File "D:\Raihana\DjangoCRUD\DjangoCRUD\venv\lib\site-packages\django\utils\decorators.py", line 133, in _wrapped_view
+    response = view_func(request, *args, **kwargs)
+  File "D:\Raihana\DjangoCRUD\DjangoCRUD\venv\lib\site-packages\django\views\decorators\cache.py", line 62, in _wrapped_view_func
+    response = view_func(request, *args, **kwargs)
+  File "D:\Raihana\DjangoCRUD\DjangoCRUD\venv\lib\site-packages\django\contrib\admin\sites.py", line 242, in inner
+    return view(request, *args, **kwargs)
+  File "D:\Raihana\DjangoCRUD\DjangoCRUD\venv\lib\site-packages\django\contrib\admin\sites.py", line 403, in logout
+    return LogoutView.as_view(**defaults)(request)
+  File "D:\Raihana\DjangoCRUD\DjangoCRUD\venv\lib\site-packages\django\views\generic\base.py", line 84, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "D:\Raihana\DjangoCRUD\DjangoCRUD\venv\lib\site-packages\django\utils\decorators.py", line 46, in _wrapper
+    return bound_method(*args, **kwargs)
+  File "D:\Raihana\DjangoCRUD\DjangoCRUD\venv\lib\site-packages\django\views\decorators\cache.py", line 62, in _wrapped_view_func
+    response = view_func(request, *args, **kwargs)
+  File "D:\Raihana\DjangoCRUD\DjangoCRUD\venv\lib\site-packages\django\contrib\auth\views.py", line 132, in dispatch
+    return super().dispatch(request, *args, **kwargs)
+  File "D:\Raihana\DjangoCRUD\DjangoCRUD\venv\lib\site-packages\django\views\generic\base.py", line 119, in dispatch
+    return handler(request, *args, **kwargs)
+  File "D:\Raihana\DjangoCRUD\DjangoCRUD\venv\lib\site-packages\django\views\generic\base.py", line 185, in get
+    context = self.get_context_data(**kwargs)
+  File "D:\Raihana\DjangoCRUD\DjangoCRUD\venv\lib\site-packages\django\contrib\auth\views.py", line 166, in get_context_data
+    current_site = get_current_site(self.request)
+  File "D:\Raihana\DjangoCRUD\DjangoCRUD\venv\lib\site-packages\django\contrib\sites\shortcuts.py", line 14, in get_current_site
+    return Site.objects.get_current(request)
+  File "D:\Raihana\DjangoCRUD\DjangoCRUD\venv\lib\site-packages\django\contrib\sites\models.py", line 59, in get_current
+    return self._get_site_by_id(site_id)
+  File "D:\Raihana\DjangoCRUD\DjangoCRUD\venv\lib\site-packages\django\contrib\sites\models.py", line 30, in _get_site_by_id
+    site = self.get(pk=site_id)
+  File "D:\Raihana\DjangoCRUD\DjangoCRUD\venv\lib\site-packages\django\db\models\manager.py", line 85, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "D:\Raihana\DjangoCRUD\DjangoCRUD\venv\lib\site-packages\django\db\models\query.py", line 496, in get
+    raise self.model.DoesNotExist(
+django.contrib.sites.models.Site.DoesNotExist: Site matching query does not exist.
+Internal Server Error: /admin/login/
+Traceback (most recent call last):
+  File "D:\Raihana\DjangoCRUD\DjangoCRUD\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "D:\Raihana\DjangoCRUD\DjangoCRUD\venv\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\Raihana\DjangoCRUD\DjangoCRUD\venv\lib\site-packages\django\utils\decorators.py", line 46, in _wrapper
+    return bound_method(*args, **kwargs)
+  File "D:\Raihana\DjangoCRUD\DjangoCRUD\venv\lib\site-packages\django\views\decorators\cache.py", line 62, in _wrapped_view_func
+    response = view_func(request, *args, **kwargs)
+  File "D:\Raihana\DjangoCRUD\DjangoCRUD\venv\lib\site-packages\django\contrib\admin\sites.py", line 440, in login
+    return LoginView.as_view(**defaults)(request)
+  File "D:\Raihana\DjangoCRUD\DjangoCRUD\venv\lib\site-packages\django\views\generic\base.py", line 84, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "D:\Raihana\DjangoCRUD\DjangoCRUD\venv\lib\site-packages\django\utils\decorators.py", line 46, in _wrapper
+    return bound_method(*args, **kwargs)
+  File "D:\Raihana\DjangoCRUD\DjangoCRUD\venv\lib\site-packages\django\views\decorators\debug.py", line 92, in sensitive_post_parameters_wrapper
+    return view(request, *args, **kwargs)
+  File "D:\Raihana\DjangoCRUD\DjangoCRUD\venv\lib\site-packages\django\utils\decorators.py", line 46, in _wrapper
+    return bound_method(*args, **kwargs)
+  File "D:\Raihana\DjangoCRUD\DjangoCRUD\venv\lib\site-packages\django\utils\decorators.py", line 133, in _wrapped_view
+    response = view_func(request, *args, **kwargs)
+  File "D:\Raihana\DjangoCRUD\DjangoCRUD\venv\lib\site-packages\django\utils\decorators.py", line 46, in _wrapper
+    return bound_method(*args, **kwargs)
+  File "D:\Raihana\DjangoCRUD\DjangoCRUD\venv\lib\site-packages\django\views\decorators\cache.py", line 62, in _wrapped_view_func
+    response = view_func(request, *args, **kwargs)
+  File "D:\Raihana\DjangoCRUD\DjangoCRUD\venv\lib\site-packages\django\contrib\auth\views.py", line 67, in dispatch
+    return super().dispatch(request, *args, **kwargs)
+  File "D:\Raihana\DjangoCRUD\DjangoCRUD\venv\lib\site-packages\django\views\generic\base.py", line 119, in dispatch
+    return handler(request, *args, **kwargs)
+  File "D:\Raihana\DjangoCRUD\DjangoCRUD\venv\lib\site-packages\django\views\generic\edit.py", line 144, in get
+    return self.render_to_response(self.get_context_data())
+  File "D:\Raihana\DjangoCRUD\DjangoCRUD\venv\lib\site-packages\django\contrib\auth\views.py", line 103, in get_context_data
+    current_site = get_current_site(self.request)
+  File "D:\Raihana\DjangoCRUD\DjangoCRUD\venv\lib\site-packages\django\contrib\sites\shortcuts.py", line 14, in get_current_site
+    return Site.objects.get_current(request)
+  File "D:\Raihana\DjangoCRUD\DjangoCRUD\venv\lib\site-packages\django\contrib\sites\models.py", line 59, in get_current
+    return self._get_site_by_id(site_id)
+  File "D:\Raihana\DjangoCRUD\DjangoCRUD\venv\lib\site-packages\django\contrib\sites\models.py", line 30, in _get_site_by_id
+    site = self.get(pk=site_id)
+  File "D:\Raihana\DjangoCRUD\DjangoCRUD\venv\lib\site-packages\django\db\models\manager.py", line 85, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "D:\Raihana\DjangoCRUD\DjangoCRUD\venv\lib\site-packages\django\db\models\query.py", line 496, in get
+    raise self.model.DoesNotExist(
+django.contrib.sites.models.Site.DoesNotExist: Site matching query does not exist.
+Internal Server Error: /admin/login/
+Traceback (most recent call last):
+  File "D:\Raihana\DjangoCRUD\DjangoCRUD\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "D:\Raihana\DjangoCRUD\DjangoCRUD\venv\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\Raihana\DjangoCRUD\DjangoCRUD\venv\lib\site-packages\django\utils\decorators.py", line 46, in _wrapper
+    return bound_method(*args, **kwargs)
+  File "D:\Raihana\DjangoCRUD\DjangoCRUD\venv\lib\site-packages\django\views\decorators\cache.py", line 62, in _wrapped_view_func
+    response = view_func(request, *args, **kwargs)
+  File "D:\Raihana\DjangoCRUD\DjangoCRUD\venv\lib\site-packages\django\contrib\admin\sites.py", line 440, in login
+    return LoginView.as_view(**defaults)(request)
+  File "D:\Raihana\DjangoCRUD\DjangoCRUD\venv\lib\site-packages\django\views\generic\base.py", line 84, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "D:\Raihana\DjangoCRUD\DjangoCRUD\venv\lib\site-packages\django\utils\decorators.py", line 46, in _wrapper
+    return bound_method(*args, **kwargs)
+  File "D:\Raihana\DjangoCRUD\DjangoCRUD\venv\lib\site-packages\django\views\decorators\debug.py", line 92, in sensitive_post_parameters_wrapper
+    return view(request, *args, **kwargs)
+  File "D:\Raihana\DjangoCRUD\DjangoCRUD\venv\lib\site-packages\django\utils\decorators.py", line 46, in _wrapper
+    return bound_method(*args, **kwargs)
+  File "D:\Raihana\DjangoCRUD\DjangoCRUD\venv\lib\site-packages\django\utils\decorators.py", line 133, in _wrapped_view
+    response = view_func(request, *args, **kwargs)
+  File "D:\Raihana\DjangoCRUD\DjangoCRUD\venv\lib\site-packages\django\utils\decorators.py", line 46, in _wrapper
+    return bound_method(*args, **kwargs)
+  File "D:\Raihana\DjangoCRUD\DjangoCRUD\venv\lib\site-packages\django\views\decorators\cache.py", line 62, in _wrapped_view_func
+    response = view_func(request, *args, **kwargs)
+  File "D:\Raihana\DjangoCRUD\DjangoCRUD\venv\lib\site-packages\django\contrib\auth\views.py", line 67, in dispatch
+    return super().dispatch(request, *args, **kwargs)
+  File "D:\Raihana\DjangoCRUD\DjangoCRUD\venv\lib\site-packages\django\views\generic\base.py", line 119, in dispatch
+    return handler(request, *args, **kwargs)
+  File "D:\Raihana\DjangoCRUD\DjangoCRUD\venv\lib\site-packages\django\views\generic\edit.py", line 144, in get
+    return self.render_to_response(self.get_context_data())
+  File "D:\Raihana\DjangoCRUD\DjangoCRUD\venv\lib\site-packages\django\contrib\auth\views.py", line 103, in get_context_data
+    current_site = get_current_site(self.request)
+  File "D:\Raihana\DjangoCRUD\DjangoCRUD\venv\lib\site-packages\django\contrib\sites\shortcuts.py", line 14, in get_current_site
+    return Site.objects.get_current(request)
+  File "D:\Raihana\DjangoCRUD\DjangoCRUD\venv\lib\site-packages\django\contrib\sites\models.py", line 59, in get_current
+    return self._get_site_by_id(site_id)
+  File "D:\Raihana\DjangoCRUD\DjangoCRUD\venv\lib\site-packages\django\contrib\sites\models.py", line 30, in _get_site_by_id
+    site = self.get(pk=site_id)
+  File "D:\Raihana\DjangoCRUD\DjangoCRUD\venv\lib\site-packages\django\db\models\manager.py", line 85, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "D:\Raihana\DjangoCRUD\DjangoCRUD\venv\lib\site-packages\django\db\models\query.py", line 496, in get
+    raise self.model.DoesNotExist(
+django.contrib.sites.models.Site.DoesNotExist: Site matching query does not exist.
+Internal Server Error: /admin/login/
+Traceback (most recent call last):
+  File "D:\Raihana\DjangoCRUD\DjangoCRUD\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "D:\Raihana\DjangoCRUD\DjangoCRUD\venv\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\Raihana\DjangoCRUD\DjangoCRUD\venv\lib\site-packages\django\utils\decorators.py", line 46, in _wrapper
+    return bound_method(*args, **kwargs)
+  File "D:\Raihana\DjangoCRUD\DjangoCRUD\venv\lib\site-packages\django\views\decorators\cache.py", line 62, in _wrapped_view_func
+    response = view_func(request, *args, **kwargs)
+  File "D:\Raihana\DjangoCRUD\DjangoCRUD\venv\lib\site-packages\django\contrib\admin\sites.py", line 440, in login
+    return LoginView.as_view(**defaults)(request)
+  File "D:\Raihana\DjangoCRUD\DjangoCRUD\venv\lib\site-packages\django\views\generic\base.py", line 84, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "D:\Raihana\DjangoCRUD\DjangoCRUD\venv\lib\site-packages\django\utils\decorators.py", line 46, in _wrapper
+    return bound_method(*args, **kwargs)
+  File "D:\Raihana\DjangoCRUD\DjangoCRUD\venv\lib\site-packages\django\views\decorators\debug.py", line 92, in sensitive_post_parameters_wrapper
+    return view(request, *args, **kwargs)
+  File "D:\Raihana\DjangoCRUD\DjangoCRUD\venv\lib\site-packages\django\utils\decorators.py", line 46, in _wrapper
+    return bound_method(*args, **kwargs)
+  File "D:\Raihana\DjangoCRUD\DjangoCRUD\venv\lib\site-packages\django\utils\decorators.py", line 133, in _wrapped_view
+    response = view_func(request, *args, **kwargs)
+  File "D:\Raihana\DjangoCRUD\DjangoCRUD\venv\lib\site-packages\django\utils\decorators.py", line 46, in _wrapper
+    return bound_method(*args, **kwargs)
+  File "D:\Raihana\DjangoCRUD\DjangoCRUD\venv\lib\site-packages\django\views\decorators\cache.py", line 62, in _wrapped_view_func
+    response = view_func(request, *args, **kwargs)
+  File "D:\Raihana\DjangoCRUD\DjangoCRUD\venv\lib\site-packages\django\contrib\auth\views.py", line 67, in dispatch
+    return super().dispatch(request, *args, **kwargs)
+  File "D:\Raihana\DjangoCRUD\DjangoCRUD\venv\lib\site-packages\django\views\generic\base.py", line 119, in dispatch
+    return handler(request, *args, **kwargs)
+  File "D:\Raihana\DjangoCRUD\DjangoCRUD\venv\lib\site-packages\django\views\generic\edit.py", line 144, in get
+    return self.render_to_response(self.get_context_data())
+  File "D:\Raihana\DjangoCRUD\DjangoCRUD\venv\lib\site-packages\django\contrib\auth\views.py", line 103, in get_context_data
+    current_site = get_current_site(self.request)
+  File "D:\Raihana\DjangoCRUD\DjangoCRUD\venv\lib\site-packages\django\contrib\sites\shortcuts.py", line 14, in get_current_site
+    return Site.objects.get_current(request)
+  File "D:\Raihana\DjangoCRUD\DjangoCRUD\venv\lib\site-packages\django\contrib\sites\models.py", line 59, in get_current
+    return self._get_site_by_id(site_id)
+  File "D:\Raihana\DjangoCRUD\DjangoCRUD\venv\lib\site-packages\django\contrib\sites\models.py", line 30, in _get_site_by_id
+    site = self.get(pk=site_id)
+  File "D:\Raihana\DjangoCRUD\DjangoCRUD\venv\lib\site-packages\django\db\models\manager.py", line 85, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "D:\Raihana\DjangoCRUD\DjangoCRUD\venv\lib\site-packages\django\db\models\query.py", line 496, in get
+    raise self.model.DoesNotExist(
+django.contrib.sites.models.Site.DoesNotExist: Site matching query does not exist.
+Not Found: /asset/btn_google_signin_dark_focus_web.png
+Internal Server Error: /admin/login/
+Traceback (most recent call last):
+  File "D:\Raihana\DjangoCRUD\DjangoCRUD\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "D:\Raihana\DjangoCRUD\DjangoCRUD\venv\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\Raihana\DjangoCRUD\DjangoCRUD\venv\lib\site-packages\django\utils\decorators.py", line 46, in _wrapper
+    return bound_method(*args, **kwargs)
+  File "D:\Raihana\DjangoCRUD\DjangoCRUD\venv\lib\site-packages\django\views\decorators\cache.py", line 62, in _wrapped_view_func
+    response = view_func(request, *args, **kwargs)
+  File "D:\Raihana\DjangoCRUD\DjangoCRUD\venv\lib\site-packages\django\contrib\admin\sites.py", line 440, in login
+    return LoginView.as_view(**defaults)(request)
+  File "D:\Raihana\DjangoCRUD\DjangoCRUD\venv\lib\site-packages\django\views\generic\base.py", line 84, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "D:\Raihana\DjangoCRUD\DjangoCRUD\venv\lib\site-packages\django\utils\decorators.py", line 46, in _wrapper
+    return bound_method(*args, **kwargs)
+  File "D:\Raihana\DjangoCRUD\DjangoCRUD\venv\lib\site-packages\django\views\decorators\debug.py", line 92, in sensitive_post_parameters_wrapper
+    return view(request, *args, **kwargs)
+  File "D:\Raihana\DjangoCRUD\DjangoCRUD\venv\lib\site-packages\django\utils\decorators.py", line 46, in _wrapper
+    return bound_method(*args, **kwargs)
+  File "D:\Raihana\DjangoCRUD\DjangoCRUD\venv\lib\site-packages\django\utils\decorators.py", line 133, in _wrapped_view
+    response = view_func(request, *args, **kwargs)
+  File "D:\Raihana\DjangoCRUD\DjangoCRUD\venv\lib\site-packages\django\utils\decorators.py", line 46, in _wrapper
+    return bound_method(*args, **kwargs)
+  File "D:\Raihana\DjangoCRUD\DjangoCRUD\venv\lib\site-packages\django\views\decorators\cache.py", line 62, in _wrapped_view_func
+    response = view_func(request, *args, **kwargs)
+  File "D:\Raihana\DjangoCRUD\DjangoCRUD\venv\lib\site-packages\django\contrib\auth\views.py", line 67, in dispatch
+    return super().dispatch(request, *args, **kwargs)
+  File "D:\Raihana\DjangoCRUD\DjangoCRUD\venv\lib\site-packages\django\views\generic\base.py", line 119, in dispatch
+    return handler(request, *args, **kwargs)
+  File "D:\Raihana\DjangoCRUD\DjangoCRUD\venv\lib\site-packages\django\views\generic\edit.py", line 144, in get
+    return self.render_to_response(self.get_context_data())
+  File "D:\Raihana\DjangoCRUD\DjangoCRUD\venv\lib\site-packages\django\contrib\auth\views.py", line 103, in get_context_data
+    current_site = get_current_site(self.request)
+  File "D:\Raihana\DjangoCRUD\DjangoCRUD\venv\lib\site-packages\django\contrib\sites\shortcuts.py", line 14, in get_current_site
+    return Site.objects.get_current(request)
+  File "D:\Raihana\DjangoCRUD\DjangoCRUD\venv\lib\site-packages\django\contrib\sites\models.py", line 59, in get_current
+    return self._get_site_by_id(site_id)
+  File "D:\Raihana\DjangoCRUD\DjangoCRUD\venv\lib\site-packages\django\contrib\sites\models.py", line 30, in _get_site_by_id
+    site = self.get(pk=site_id)
+  File "D:\Raihana\DjangoCRUD\DjangoCRUD\venv\lib\site-packages\django\db\models\manager.py", line 85, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "D:\Raihana\DjangoCRUD\DjangoCRUD\venv\lib\site-packages\django\db\models\query.py", line 496, in get
+    raise self.model.DoesNotExist(
+django.contrib.sites.models.Site.DoesNotExist: Site matching query does not exist.
+Not Found: /asset/btn_google_signin_dark_focus_web.png
+Internal Server Error: /admin/login/
+Traceback (most recent call last):
+  File "D:\Raihana\DjangoCRUD\DjangoCRUD\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "D:\Raihana\DjangoCRUD\DjangoCRUD\venv\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\Raihana\DjangoCRUD\DjangoCRUD\venv\lib\site-packages\django\utils\decorators.py", line 46, in _wrapper
+    return bound_method(*args, **kwargs)
+  File "D:\Raihana\DjangoCRUD\DjangoCRUD\venv\lib\site-packages\django\views\decorators\cache.py", line 62, in _wrapped_view_func
+    response = view_func(request, *args, **kwargs)
+  File "D:\Raihana\DjangoCRUD\DjangoCRUD\venv\lib\site-packages\django\contrib\admin\sites.py", line 440, in login
+    return LoginView.as_view(**defaults)(request)
+  File "D:\Raihana\DjangoCRUD\DjangoCRUD\venv\lib\site-packages\django\views\generic\base.py", line 84, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "D:\Raihana\DjangoCRUD\DjangoCRUD\venv\lib\site-packages\django\utils\decorators.py", line 46, in _wrapper
+    return bound_method(*args, **kwargs)
+  File "D:\Raihana\DjangoCRUD\DjangoCRUD\venv\lib\site-packages\django\views\decorators\debug.py", line 92, in sensitive_post_parameters_wrapper
+    return view(request, *args, **kwargs)
+  File "D:\Raihana\DjangoCRUD\DjangoCRUD\venv\lib\site-packages\django\utils\decorators.py", line 46, in _wrapper
+    return bound_method(*args, **kwargs)
+  File "D:\Raihana\DjangoCRUD\DjangoCRUD\venv\lib\site-packages\django\utils\decorators.py", line 133, in _wrapped_view
+    response = view_func(request, *args, **kwargs)
+  File "D:\Raihana\DjangoCRUD\DjangoCRUD\venv\lib\site-packages\django\utils\decorators.py", line 46, in _wrapper
+    return bound_method(*args, **kwargs)
+  File "D:\Raihana\DjangoCRUD\DjangoCRUD\venv\lib\site-packages\django\views\decorators\cache.py", line 62, in _wrapped_view_func
+    response = view_func(request, *args, **kwargs)
+  File "D:\Raihana\DjangoCRUD\DjangoCRUD\venv\lib\site-packages\django\contrib\auth\views.py", line 67, in dispatch
+    return super().dispatch(request, *args, **kwargs)
+  File "D:\Raihana\DjangoCRUD\DjangoCRUD\venv\lib\site-packages\django\views\generic\base.py", line 119, in dispatch
+    return handler(request, *args, **kwargs)
+  File "D:\Raihana\DjangoCRUD\DjangoCRUD\venv\lib\site-packages\django\views\generic\edit.py", line 144, in get
+    return self.render_to_response(self.get_context_data())
+  File "D:\Raihana\DjangoCRUD\DjangoCRUD\venv\lib\site-packages\django\contrib\auth\views.py", line 103, in get_context_data
+    current_site = get_current_site(self.request)
+  File "D:\Raihana\DjangoCRUD\DjangoCRUD\venv\lib\site-packages\django\contrib\sites\shortcuts.py", line 14, in get_current_site
+    return Site.objects.get_current(request)
+  File "D:\Raihana\DjangoCRUD\DjangoCRUD\venv\lib\site-packages\django\contrib\sites\models.py", line 59, in get_current
+    return self._get_site_by_id(site_id)
+  File "D:\Raihana\DjangoCRUD\DjangoCRUD\venv\lib\site-packages\django\contrib\sites\models.py", line 30, in _get_site_by_id
+    site = self.get(pk=site_id)
+  File "D:\Raihana\DjangoCRUD\DjangoCRUD\venv\lib\site-packages\django\db\models\manager.py", line 85, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "D:\Raihana\DjangoCRUD\DjangoCRUD\venv\lib\site-packages\django\db\models\query.py", line 496, in get
+    raise self.model.DoesNotExist(
+django.contrib.sites.models.Site.DoesNotExist: Site matching query does not exist.
+D:\Raihana\Voicetweet\Raihana_blog\django_project\settings.py changed, reloading.
+Watching for file changes with StatReloader
+Not Found: /asset/btn_google_signin_dark_focus_web.png
+Not Found: /asset/btn_google_signin_dark_focus_web.png
+Internal Server Error: /
+Traceback (most recent call last):
+  File "D:\Raihana\DjangoCRUD\DjangoCRUD\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "D:\Raihana\DjangoCRUD\DjangoCRUD\venv\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\Raihana\Voicetweet\Raihana_blog\blog\views.py", line 34, in home
+    return render(request, 'blog/home.html', context)
+  File "D:\Raihana\DjangoCRUD\DjangoCRUD\venv\lib\site-packages\django\shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "D:\Raihana\DjangoCRUD\DjangoCRUD\venv\lib\site-packages\django\template\loader.py", line 62, in render_to_string
+    return template.render(context, request)
+  File "D:\Raihana\DjangoCRUD\DjangoCRUD\venv\lib\site-packages\django\template\backends\django.py", line 62, in render
+    return self.template.render(context)
+  File "D:\Raihana\DjangoCRUD\DjangoCRUD\venv\lib\site-packages\django\template\base.py", line 175, in render
+    return self._render(context)
+  File "D:\Raihana\DjangoCRUD\DjangoCRUD\venv\lib\site-packages\django\template\base.py", line 167, in _render
+    return self.nodelist.render(context)
+  File "D:\Raihana\DjangoCRUD\DjangoCRUD\venv\lib\site-packages\django\template\base.py", line 1000, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "D:\Raihana\DjangoCRUD\DjangoCRUD\venv\lib\site-packages\django\template\base.py", line 1000, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "D:\Raihana\DjangoCRUD\DjangoCRUD\venv\lib\site-packages\django\template\base.py", line 958, in render_annotated
+    return self.render(context)
+  File "D:\Raihana\DjangoCRUD\DjangoCRUD\venv\lib\site-packages\django\template\loader_tags.py", line 157, in render
+    return compiled_parent._render(context)
+  File "D:\Raihana\DjangoCRUD\DjangoCRUD\venv\lib\site-packages\django\template\base.py", line 167, in _render
+    return self.nodelist.render(context)
+  File "D:\Raihana\DjangoCRUD\DjangoCRUD\venv\lib\site-packages\django\template\base.py", line 1000, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "D:\Raihana\DjangoCRUD\DjangoCRUD\venv\lib\site-packages\django\template\base.py", line 1000, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "D:\Raihana\DjangoCRUD\DjangoCRUD\venv\lib\site-packages\django\template\base.py", line 958, in render_annotated
+    return self.render(context)
+  File "D:\Raihana\DjangoCRUD\DjangoCRUD\venv\lib\site-packages\django\template\defaulttags.py", line 322, in render
+    return nodelist.render(context)
+  File "D:\Raihana\DjangoCRUD\DjangoCRUD\venv\lib\site-packages\django\template\base.py", line 1000, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "D:\Raihana\DjangoCRUD\DjangoCRUD\venv\lib\site-packages\django\template\base.py", line 1000, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "D:\Raihana\DjangoCRUD\DjangoCRUD\venv\lib\site-packages\django\template\base.py", line 958, in render_annotated
+    return self.render(context)
+  File "D:\Raihana\DjangoCRUD\DjangoCRUD\venv\lib\site-packages\django\template\defaulttags.py", line 472, in render
+    url = reverse(view_name, args=args, kwargs=kwargs, current_app=current_app)
+  File "D:\Raihana\DjangoCRUD\DjangoCRUD\venv\lib\site-packages\django\urls\base.py", line 88, in reverse
+    return resolver._reverse_with_prefix(view, prefix, *args, **kwargs)
+  File "D:\Raihana\DjangoCRUD\DjangoCRUD\venv\lib\site-packages\django\urls\resolvers.py", line 802, in _reverse_with_prefix
+    raise NoReverseMatch(msg)
+django.urls.exceptions.NoReverseMatch: Reverse for 'accounts/login' not found. 'accounts/login' is not a valid view function or pattern name.
+D:\Raihana\Voicetweet\Raihana_blog\django_project\urls.py changed, reloading.
+Watching for file changes with StatReloader
+Internal Server Error: /
+Traceback (most recent call last):
+  File "D:\Raihana\DjangoCRUD\DjangoCRUD\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "D:\Raihana\DjangoCRUD\DjangoCRUD\venv\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\Raihana\Voicetweet\Raihana_blog\blog\views.py", line 34, in home
+    return render(request, 'blog/home.html', context)
+  File "D:\Raihana\DjangoCRUD\DjangoCRUD\venv\lib\site-packages\django\shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "D:\Raihana\DjangoCRUD\DjangoCRUD\venv\lib\site-packages\django\template\loader.py", line 62, in render_to_string
+    return template.render(context, request)
+  File "D:\Raihana\DjangoCRUD\DjangoCRUD\venv\lib\site-packages\django\template\backends\django.py", line 62, in render
+    return self.template.render(context)
+  File "D:\Raihana\DjangoCRUD\DjangoCRUD\venv\lib\site-packages\django\template\base.py", line 175, in render
+    return self._render(context)
+  File "D:\Raihana\DjangoCRUD\DjangoCRUD\venv\lib\site-packages\django\template\base.py", line 167, in _render
+    return self.nodelist.render(context)
+  File "D:\Raihana\DjangoCRUD\DjangoCRUD\venv\lib\site-packages\django\template\base.py", line 1000, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "D:\Raihana\DjangoCRUD\DjangoCRUD\venv\lib\site-packages\django\template\base.py", line 1000, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "D:\Raihana\DjangoCRUD\DjangoCRUD\venv\lib\site-packages\django\template\base.py", line 958, in render_annotated
+    return self.render(context)
+  File "D:\Raihana\DjangoCRUD\DjangoCRUD\venv\lib\site-packages\django\template\loader_tags.py", line 157, in render
+    return compiled_parent._render(context)
+  File "D:\Raihana\DjangoCRUD\DjangoCRUD\venv\lib\site-packages\django\template\base.py", line 167, in _render
+    return self.nodelist.render(context)
+  File "D:\Raihana\DjangoCRUD\DjangoCRUD\venv\lib\site-packages\django\template\base.py", line 1000, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "D:\Raihana\DjangoCRUD\DjangoCRUD\venv\lib\site-packages\django\template\base.py", line 1000, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "D:\Raihana\DjangoCRUD\DjangoCRUD\venv\lib\site-packages\django\template\base.py", line 958, in render_annotated
+    return self.render(context)
+  File "D:\Raihana\DjangoCRUD\DjangoCRUD\venv\lib\site-packages\django\template\defaulttags.py", line 322, in render
+    return nodelist.render(context)
+  File "D:\Raihana\DjangoCRUD\DjangoCRUD\venv\lib\site-packages\django\template\base.py", line 1000, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "D:\Raihana\DjangoCRUD\DjangoCRUD\venv\lib\site-packages\django\template\base.py", line 1000, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "D:\Raihana\DjangoCRUD\DjangoCRUD\venv\lib\site-packages\django\template\base.py", line 958, in render_annotated
+    return self.render(context)
+  File "D:\Raihana\DjangoCRUD\DjangoCRUD\venv\lib\site-packages\django\template\defaulttags.py", line 472, in render
+    url = reverse(view_name, args=args, kwargs=kwargs, current_app=current_app)
+  File "D:\Raihana\DjangoCRUD\DjangoCRUD\venv\lib\site-packages\django\urls\base.py", line 88, in reverse
+    return resolver._reverse_with_prefix(view, prefix, *args, **kwargs)
+  File "D:\Raihana\DjangoCRUD\DjangoCRUD\venv\lib\site-packages\django\urls\resolvers.py", line 802, in _reverse_with_prefix
+    raise NoReverseMatch(msg)
+django.urls.exceptions.NoReverseMatch: Reverse for 'accounts/login' not found. 'accounts/login' is not a valid view function or pattern name.
+Internal Server Error: /logout/
+Traceback (most recent call last):
+  File "D:\Raihana\DjangoCRUD\DjangoCRUD\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "D:\Raihana\DjangoCRUD\DjangoCRUD\venv\lib\site-packages\django\core\handlers\base.py", line 220, in _get_response
+    response = response.render()
+  File "D:\Raihana\DjangoCRUD\DjangoCRUD\venv\lib\site-packages\django\template\response.py", line 114, in render
+    self.content = self.rendered_content
+  File "D:\Raihana\DjangoCRUD\DjangoCRUD\venv\lib\site-packages\django\template\response.py", line 92, in rendered_content
+    return template.render(context, self._request)
+  File "D:\Raihana\DjangoCRUD\DjangoCRUD\venv\lib\site-packages\django\template\backends\django.py", line 62, in render
+    return self.template.render(context)
+  File "D:\Raihana\DjangoCRUD\DjangoCRUD\venv\lib\site-packages\django\template\base.py", line 175, in render
+    return self._render(context)
+  File "D:\Raihana\DjangoCRUD\DjangoCRUD\venv\lib\site-packages\django\template\base.py", line 167, in _render
+    return self.nodelist.render(context)
+  File "D:\Raihana\DjangoCRUD\DjangoCRUD\venv\lib\site-packages\django\template\base.py", line 1000, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "D:\Raihana\DjangoCRUD\DjangoCRUD\venv\lib\site-packages\django\template\base.py", line 1000, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "D:\Raihana\DjangoCRUD\DjangoCRUD\venv\lib\site-packages\django\template\base.py", line 958, in render_annotated
+    return self.render(context)
+  File "D:\Raihana\DjangoCRUD\DjangoCRUD\venv\lib\site-packages\django\template\loader_tags.py", line 157, in render
+    return compiled_parent._render(context)
+  File "D:\Raihana\DjangoCRUD\DjangoCRUD\venv\lib\site-packages\django\template\base.py", line 167, in _render
+    return self.nodelist.render(context)
+  File "D:\Raihana\DjangoCRUD\DjangoCRUD\venv\lib\site-packages\django\template\base.py", line 1000, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "D:\Raihana\DjangoCRUD\DjangoCRUD\venv\lib\site-packages\django\template\base.py", line 1000, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "D:\Raihana\DjangoCRUD\DjangoCRUD\venv\lib\site-packages\django\template\base.py", line 958, in render_annotated
+    return self.render(context)
+  File "D:\Raihana\DjangoCRUD\DjangoCRUD\venv\lib\site-packages\django\template\defaulttags.py", line 322, in render
+    return nodelist.render(context)
+  File "D:\Raihana\DjangoCRUD\DjangoCRUD\venv\lib\site-packages\django\template\base.py", line 1000, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "D:\Raihana\DjangoCRUD\DjangoCRUD\venv\lib\site-packages\django\template\base.py", line 1000, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "D:\Raihana\DjangoCRUD\DjangoCRUD\venv\lib\site-packages\django\template\base.py", line 958, in render_annotated
+    return self.render(context)
+  File "D:\Raihana\DjangoCRUD\DjangoCRUD\venv\lib\site-packages\django\template\defaulttags.py", line 472, in render
+    url = reverse(view_name, args=args, kwargs=kwargs, current_app=current_app)
+  File "D:\Raihana\DjangoCRUD\DjangoCRUD\venv\lib\site-packages\django\urls\base.py", line 88, in reverse
+    return resolver._reverse_with_prefix(view, prefix, *args, **kwargs)
+  File "D:\Raihana\DjangoCRUD\DjangoCRUD\venv\lib\site-packages\django\urls\resolvers.py", line 802, in _reverse_with_prefix
+    raise NoReverseMatch(msg)
+django.urls.exceptions.NoReverseMatch: Reverse for 'accounts/login' not found. 'accounts/login' is not a valid view function or pattern name.
+Internal Server Error: /
+Traceback (most recent call last):
+  File "D:\Raihana\DjangoCRUD\DjangoCRUD\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "D:\Raihana\DjangoCRUD\DjangoCRUD\venv\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\Raihana\Voicetweet\Raihana_blog\blog\views.py", line 34, in home
+    return render(request, 'blog/home.html', context)
+  File "D:\Raihana\DjangoCRUD\DjangoCRUD\venv\lib\site-packages\django\shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "D:\Raihana\DjangoCRUD\DjangoCRUD\venv\lib\site-packages\django\template\loader.py", line 62, in render_to_string
+    return template.render(context, request)
+  File "D:\Raihana\DjangoCRUD\DjangoCRUD\venv\lib\site-packages\django\template\backends\django.py", line 62, in render
+    return self.template.render(context)
+  File "D:\Raihana\DjangoCRUD\DjangoCRUD\venv\lib\site-packages\django\template\base.py", line 175, in render
+    return self._render(context)
+  File "D:\Raihana\DjangoCRUD\DjangoCRUD\venv\lib\site-packages\django\template\base.py", line 167, in _render
+    return self.nodelist.render(context)
+  File "D:\Raihana\DjangoCRUD\DjangoCRUD\venv\lib\site-packages\django\template\base.py", line 1000, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "D:\Raihana\DjangoCRUD\DjangoCRUD\venv\lib\site-packages\django\template\base.py", line 1000, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "D:\Raihana\DjangoCRUD\DjangoCRUD\venv\lib\site-packages\django\template\base.py", line 958, in render_annotated
+    return self.render(context)
+  File "D:\Raihana\DjangoCRUD\DjangoCRUD\venv\lib\site-packages\django\template\loader_tags.py", line 157, in render
+    return compiled_parent._render(context)
+  File "D:\Raihana\DjangoCRUD\DjangoCRUD\venv\lib\site-packages\django\template\base.py", line 167, in _render
+    return self.nodelist.render(context)
+  File "D:\Raihana\DjangoCRUD\DjangoCRUD\venv\lib\site-packages\django\template\base.py", line 1000, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "D:\Raihana\DjangoCRUD\DjangoCRUD\venv\lib\site-packages\django\template\base.py", line 1000, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "D:\Raihana\DjangoCRUD\DjangoCRUD\venv\lib\site-packages\django\template\base.py", line 958, in render_annotated
+    return self.render(context)
+  File "D:\Raihana\DjangoCRUD\DjangoCRUD\venv\lib\site-packages\django\template\defaulttags.py", line 322, in render
+    return nodelist.render(context)
+  File "D:\Raihana\DjangoCRUD\DjangoCRUD\venv\lib\site-packages\django\template\base.py", line 1000, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "D:\Raihana\DjangoCRUD\DjangoCRUD\venv\lib\site-packages\django\template\base.py", line 1000, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "D:\Raihana\DjangoCRUD\DjangoCRUD\venv\lib\site-packages\django\template\base.py", line 958, in render_annotated
+    return self.render(context)
+  File "D:\Raihana\DjangoCRUD\DjangoCRUD\venv\lib\site-packages\django\template\defaulttags.py", line 472, in render
+    url = reverse(view_name, args=args, kwargs=kwargs, current_app=current_app)
+  File "D:\Raihana\DjangoCRUD\DjangoCRUD\venv\lib\site-packages\django\urls\base.py", line 88, in reverse
+    return resolver._reverse_with_prefix(view, prefix, *args, **kwargs)
+  File "D:\Raihana\DjangoCRUD\DjangoCRUD\venv\lib\site-packages\django\urls\resolvers.py", line 802, in _reverse_with_prefix
+    raise NoReverseMatch(msg)
+django.urls.exceptions.NoReverseMatch: Reverse for 'accounts/login' not found. 'accounts/login' is not a valid view function or pattern name.
+Internal Server Error: /
+Traceback (most recent call last):
+  File "D:\Raihana\DjangoCRUD\DjangoCRUD\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "D:\Raihana\DjangoCRUD\DjangoCRUD\venv\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\Raihana\Voicetweet\Raihana_blog\blog\views.py", line 34, in home
+    return render(request, 'blog/home.html', context)
+  File "D:\Raihana\DjangoCRUD\DjangoCRUD\venv\lib\site-packages\django\shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "D:\Raihana\DjangoCRUD\DjangoCRUD\venv\lib\site-packages\django\template\loader.py", line 62, in render_to_string
+    return template.render(context, request)
+  File "D:\Raihana\DjangoCRUD\DjangoCRUD\venv\lib\site-packages\django\template\backends\django.py", line 62, in render
+    return self.template.render(context)
+  File "D:\Raihana\DjangoCRUD\DjangoCRUD\venv\lib\site-packages\django\template\base.py", line 175, in render
+    return self._render(context)
+  File "D:\Raihana\DjangoCRUD\DjangoCRUD\venv\lib\site-packages\django\template\base.py", line 167, in _render
+    return self.nodelist.render(context)
+  File "D:\Raihana\DjangoCRUD\DjangoCRUD\venv\lib\site-packages\django\template\base.py", line 1000, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "D:\Raihana\DjangoCRUD\DjangoCRUD\venv\lib\site-packages\django\template\base.py", line 1000, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "D:\Raihana\DjangoCRUD\DjangoCRUD\venv\lib\site-packages\django\template\base.py", line 958, in render_annotated
+    return self.render(context)
+  File "D:\Raihana\DjangoCRUD\DjangoCRUD\venv\lib\site-packages\django\template\loader_tags.py", line 157, in render
+    return compiled_parent._render(context)
+  File "D:\Raihana\DjangoCRUD\DjangoCRUD\venv\lib\site-packages\django\template\base.py", line 167, in _render
+    return self.nodelist.render(context)
+  File "D:\Raihana\DjangoCRUD\DjangoCRUD\venv\lib\site-packages\django\template\base.py", line 1000, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "D:\Raihana\DjangoCRUD\DjangoCRUD\venv\lib\site-packages\django\template\base.py", line 1000, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "D:\Raihana\DjangoCRUD\DjangoCRUD\venv\lib\site-packages\django\template\base.py", line 958, in render_annotated
+    return self.render(context)
+  File "D:\Raihana\DjangoCRUD\DjangoCRUD\venv\lib\site-packages\django\template\defaulttags.py", line 322, in render
+    return nodelist.render(context)
+  File "D:\Raihana\DjangoCRUD\DjangoCRUD\venv\lib\site-packages\django\template\base.py", line 1000, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "D:\Raihana\DjangoCRUD\DjangoCRUD\venv\lib\site-packages\django\template\base.py", line 1000, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "D:\Raihana\DjangoCRUD\DjangoCRUD\venv\lib\site-packages\django\template\base.py", line 958, in render_annotated
+    return self.render(context)
+  File "D:\Raihana\DjangoCRUD\DjangoCRUD\venv\lib\site-packages\django\template\defaulttags.py", line 472, in render
+    url = reverse(view_name, args=args, kwargs=kwargs, current_app=current_app)
+  File "D:\Raihana\DjangoCRUD\DjangoCRUD\venv\lib\site-packages\django\urls\base.py", line 88, in reverse
+    return resolver._reverse_with_prefix(view, prefix, *args, **kwargs)
+  File "D:\Raihana\DjangoCRUD\DjangoCRUD\venv\lib\site-packages\django\urls\resolvers.py", line 802, in _reverse_with_prefix
+    raise NoReverseMatch(msg)
+django.urls.exceptions.NoReverseMatch: Reverse for 'google-login' not found. 'google-login' is not a valid view function or pattern name.
+Internal Server Error: /
+Traceback (most recent call last):
+  File "D:\Raihana\DjangoCRUD\DjangoCRUD\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "D:\Raihana\DjangoCRUD\DjangoCRUD\venv\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\Raihana\Voicetweet\Raihana_blog\blog\views.py", line 34, in home
+    return render(request, 'blog/home.html', context)
+  File "D:\Raihana\DjangoCRUD\DjangoCRUD\venv\lib\site-packages\django\shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "D:\Raihana\DjangoCRUD\DjangoCRUD\venv\lib\site-packages\django\template\loader.py", line 62, in render_to_string
+    return template.render(context, request)
+  File "D:\Raihana\DjangoCRUD\DjangoCRUD\venv\lib\site-packages\django\template\backends\django.py", line 62, in render
+    return self.template.render(context)
+  File "D:\Raihana\DjangoCRUD\DjangoCRUD\venv\lib\site-packages\django\template\base.py", line 175, in render
+    return self._render(context)
+  File "D:\Raihana\DjangoCRUD\DjangoCRUD\venv\lib\site-packages\django\template\base.py", line 167, in _render
+    return self.nodelist.render(context)
+  File "D:\Raihana\DjangoCRUD\DjangoCRUD\venv\lib\site-packages\django\template\base.py", line 1000, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "D:\Raihana\DjangoCRUD\DjangoCRUD\venv\lib\site-packages\django\template\base.py", line 1000, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "D:\Raihana\DjangoCRUD\DjangoCRUD\venv\lib\site-packages\django\template\base.py", line 958, in render_annotated
+    return self.render(context)
+  File "D:\Raihana\DjangoCRUD\DjangoCRUD\venv\lib\site-packages\django\template\loader_tags.py", line 157, in render
+    return compiled_parent._render(context)
+  File "D:\Raihana\DjangoCRUD\DjangoCRUD\venv\lib\site-packages\django\template\base.py", line 167, in _render
+    return self.nodelist.render(context)
+  File "D:\Raihana\DjangoCRUD\DjangoCRUD\venv\lib\site-packages\django\template\base.py", line 1000, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "D:\Raihana\DjangoCRUD\DjangoCRUD\venv\lib\site-packages\django\template\base.py", line 1000, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "D:\Raihana\DjangoCRUD\DjangoCRUD\venv\lib\site-packages\django\template\base.py", line 958, in render_annotated
+    return self.render(context)
+  File "D:\Raihana\DjangoCRUD\DjangoCRUD\venv\lib\site-packages\django\template\defaulttags.py", line 322, in render
+    return nodelist.render(context)
+  File "D:\Raihana\DjangoCRUD\DjangoCRUD\venv\lib\site-packages\django\template\base.py", line 1000, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "D:\Raihana\DjangoCRUD\DjangoCRUD\venv\lib\site-packages\django\template\base.py", line 1000, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "D:\Raihana\DjangoCRUD\DjangoCRUD\venv\lib\site-packages\django\template\base.py", line 958, in render_annotated
+    return self.render(context)
+  File "D:\Raihana\DjangoCRUD\DjangoCRUD\venv\lib\site-packages\django\template\defaulttags.py", line 472, in render
+    url = reverse(view_name, args=args, kwargs=kwargs, current_app=current_app)
+  File "D:\Raihana\DjangoCRUD\DjangoCRUD\venv\lib\site-packages\django\urls\base.py", line 88, in reverse
+    return resolver._reverse_with_prefix(view, prefix, *args, **kwargs)
+  File "D:\Raihana\DjangoCRUD\DjangoCRUD\venv\lib\site-packages\django\urls\resolvers.py", line 802, in _reverse_with_prefix
+    raise NoReverseMatch(msg)
+django.urls.exceptions.NoReverseMatch: Reverse for 'google-login' not found. 'google-login' is not a valid view function or pattern name.
+Internal Server Error: /
+Traceback (most recent call last):
+  File "D:\Raihana\DjangoCRUD\DjangoCRUD\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "D:\Raihana\DjangoCRUD\DjangoCRUD\venv\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\Raihana\Voicetweet\Raihana_blog\blog\views.py", line 34, in home
+    return render(request, 'blog/home.html', context)
+  File "D:\Raihana\DjangoCRUD\DjangoCRUD\venv\lib\site-packages\django\shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "D:\Raihana\DjangoCRUD\DjangoCRUD\venv\lib\site-packages\django\template\loader.py", line 62, in render_to_string
+    return template.render(context, request)
+  File "D:\Raihana\DjangoCRUD\DjangoCRUD\venv\lib\site-packages\django\template\backends\django.py", line 62, in render
+    return self.template.render(context)
+  File "D:\Raihana\DjangoCRUD\DjangoCRUD\venv\lib\site-packages\django\template\base.py", line 175, in render
+    return self._render(context)
+  File "D:\Raihana\DjangoCRUD\DjangoCRUD\venv\lib\site-packages\django\template\base.py", line 167, in _render
+    return self.nodelist.render(context)
+  File "D:\Raihana\DjangoCRUD\DjangoCRUD\venv\lib\site-packages\django\template\base.py", line 1000, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "D:\Raihana\DjangoCRUD\DjangoCRUD\venv\lib\site-packages\django\template\base.py", line 1000, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "D:\Raihana\DjangoCRUD\DjangoCRUD\venv\lib\site-packages\django\template\base.py", line 958, in render_annotated
+    return self.render(context)
+  File "D:\Raihana\DjangoCRUD\DjangoCRUD\venv\lib\site-packages\django\template\loader_tags.py", line 157, in render
+    return compiled_parent._render(context)
+  File "D:\Raihana\DjangoCRUD\DjangoCRUD\venv\lib\site-packages\django\template\base.py", line 167, in _render
+    return self.nodelist.render(context)
+  File "D:\Raihana\DjangoCRUD\DjangoCRUD\venv\lib\site-packages\django\template\base.py", line 1000, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "D:\Raihana\DjangoCRUD\DjangoCRUD\venv\lib\site-packages\django\template\base.py", line 1000, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "D:\Raihana\DjangoCRUD\DjangoCRUD\venv\lib\site-packages\django\template\base.py", line 958, in render_annotated
+    return self.render(context)
+  File "D:\Raihana\DjangoCRUD\DjangoCRUD\venv\lib\site-packages\django\template\defaulttags.py", line 322, in render
+    return nodelist.render(context)
+  File "D:\Raihana\DjangoCRUD\DjangoCRUD\venv\lib\site-packages\django\template\base.py", line 1000, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "D:\Raihana\DjangoCRUD\DjangoCRUD\venv\lib\site-packages\django\template\base.py", line 1000, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "D:\Raihana\DjangoCRUD\DjangoCRUD\venv\lib\site-packages\django\template\base.py", line 958, in render_annotated
+    return self.render(context)
+  File "D:\Raihana\DjangoCRUD\DjangoCRUD\venv\lib\site-packages\django\template\defaulttags.py", line 472, in render
+    url = reverse(view_name, args=args, kwargs=kwargs, current_app=current_app)
+  File "D:\Raihana\DjangoCRUD\DjangoCRUD\venv\lib\site-packages\django\urls\base.py", line 88, in reverse
+    return resolver._reverse_with_prefix(view, prefix, *args, **kwargs)
+  File "D:\Raihana\DjangoCRUD\DjangoCRUD\venv\lib\site-packages\django\urls\resolvers.py", line 802, in _reverse_with_prefix
+    raise NoReverseMatch(msg)
+django.urls.exceptions.NoReverseMatch: Reverse for 'accounts/login/' not found. 'accounts/login/' is not a valid view function or pattern name.
+D:\Raihana\Voicetweet\Raihana_blog\django_project\urls.py changed, reloading.
+Watching for file changes with StatReloader
+Not Found: /favicon.ico
+Not Found: /logout/accounts/login/
+Not Found: /logout/accounts/login/
+Watching for file changes with StatReloader
+Starting new HTTPS connection (1): accounts.google.com:443
+https://accounts.google.com:443 "POST /o/oauth2/token HTTP/1.1" 200 None
+Starting new HTTPS connection (1): www.googleapis.com:443
+https://www.googleapis.com:443 "GET /oauth2/v1/userinfo?access_token=ya29.a0ARrdaM9ORk0IB_WeHnbBCx1YuktyX4p31z6XD9zJFXi0oiBVbSobLJXJJOtb0QfTcp1RRQbG-roL_fzxc4jorCNUkPrMO2g0-AIwxmF2g7QAu6j54xkgT-nTjhkbgb3Zib01IWctZhCeVdi7AoDetRq265ID&alt=json HTTP/1.1" 200 None
+D:\Raihana\Voicetweet\Raihana_blog\django_project\settings.py changed, reloading.
+Watching for file changes with StatReloader
