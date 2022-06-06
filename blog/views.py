@@ -38,8 +38,8 @@ def home(request):
 def create_comment(request):
     context = {
         # 'posts': posts
-        'tweets': Tweet.objects.all(),
-        'comments': Comment.objects.all()
+        'tweets': Tweet.objects.all().order_by('-date_posted'),
+        'comments': Comment.objects.all().order_by('-c_date_posted')
     }
     if request.method == "POST":
 
