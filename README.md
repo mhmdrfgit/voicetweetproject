@@ -4,6 +4,9 @@ Specification:
   python 3.9.7
   
   django 4.0.4
+  
+  db: postgre sql
+  sso: google authentication
 
 Application Setup
 
@@ -23,8 +26,15 @@ Application Setup
   (env)$ cd project
 
   (env)$ python manage.py runserver
+  
+ 4. Configure the database in settings.py
+ 
+ 5. do migraions
 
- 4. And navigate to http://127.0.0.1:8000/
+ 6. And navigate to http://127.0.0.1:8000/
+
+
+
 
 # Home 
 
@@ -36,9 +46,8 @@ Navigation bar - Home,About,Login,Register
 
 
 # Login
-If already have an account, Enter username ,password and click on login
-
-else click on Sign up now link below login button
+login with google
+or login with credentials creted while registering 
 
 # Register
 
@@ -51,17 +60,12 @@ Click on Profie link in the navigation bar.
 Profile page contains the details about the user.
 We can update in the emailid, username and the profile picture of the logged in user from profile page.
 
-# Create Post (logged in users)
-The page will have the forms to be filled to create a new blog.It includes title, content fields and a post button
+# Create Tweet (logged in users)
+The page will have the forms to be filled to create a new blog.It includes title, voice file and a tweet button
 
-# Update/Delete Post (logged in users)
-On clicking the title of a blog from home page, we can head to blog update
-or delete.logged in user can update/delete blog post and repost
+# Add Comment(logged in users)
+add comment under the associated tweet 
 
-
-# Bulk import (logged in users)
-Bulk import page have the field to upload csv file which contains the bulk details about cars. From the field we can browse through the folders
-in computer and select the correct csv file. Once clicked on the upload button,the data will be reflected in the home page.
 
 # Logout
 
@@ -75,40 +79,7 @@ provide the username and password and go to the below url
 
 http://localhost:8000/admin
 
--Admin can create/update/delete users,posts,bulk import posts
-
-# Dataset
-#User dataset:
-
-  - dataset/user_dataset.csv
-  
-  - it should containg comma seperated values
-  
-  - columns:title,content [column header should not be included in the file]
-  
-  - author will automatically updated with current logged in user
-
-#Admin dataset:
-
-  - dataset/admin_dataset.csv
-  
-  - it should containg comma seperated values
-  
-  - columns:title,content,author [column header should be included in the file]
-  
-  - author should be a valid user name, else the post will get ignored
-  
-#Table data set
-
-  - dataset/table data.xlsx
-  - columns:title,content
-  - copy the table and paste in to text area
-  
-  # Table entry
-  - user should be logged in
-  - user can paste the excel table data in the text area
-  - click on generate table button to view the table
-  - click on Bulk Post button to Post the entire data to the blog
+-Admin can create/update/delete users,posts etc
   
   
   
